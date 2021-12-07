@@ -1,0 +1,28 @@
+.header {
+    color: $white;
+    
+    .container {
+        max-width: 1152px;
+    }
+
+    .navbar {
+        ul {
+            list-style: none;
+            display: flex;
+            justify-content: right;
+        }
+
+        li {
+            padding-right: 45px;
+            padding-top: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            color: $black;
+            font-weight: 500;
+            size: 20px;
+            line-height: 29.38px;
+        }
+    }
+}

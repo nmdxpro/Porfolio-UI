@@ -1,5 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;700;900&display=swap");
+.introduction {
+  padding-top: 140px;
+  padding-bottom: 71px;
+}
+
+.introduction .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.introduction h2 {
+  width: 447px;
+}
+
+.introduction p {
+  width: 493px;
+  padding-top: 40px;
+  padding-bottom: 38px;
+}
+
+.introduction img {
+  width: 243px;
+  height: 243px;
+}
+
+.recent-posts {
+  background: #EDF7FA;
+}
+
+.recent-posts .heading {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.recent-posts .heading a {
+  font-weight: 400px;
+  line-height: 23.5px;
+  font-size: 16px;
+  color: #00A8CC;
+}
+
+.recent-posts .content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.recent-posts .content .item {
+  background: #fff;
+  width: 418px;
+}
+
+.recent-posts .content h3 {
+  padding-top: 24px;
+  padding-left: 23px;
+}
+
+.recent-posts .content .time {
+  padding-top: 17px;
+  padding-bottom: 11px;
+}
+
 * {
   padding: 0;
   margin: 0;
+}
+
+* {
+  font-family: "Heebo", sans-serif;
+}
+
+p {
+  font-size: 16px;
+  line-height: 23.5px;
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 60px;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 60px;
+}
+
+h3 {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 38.19px;
+}
+
+body {
+  padding: 15px;
+}
+
+.container {
+  max-width: 856px;
+  margin: auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  color: #fff;
+}
+
+.header .container {
+  max-width: 1152px;
+}
+
+.header .navbar ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+.header .navbar li {
+  padding-right: 45px;
+  padding-top: 12px;
+}
+
+.header .navbar a {
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  size: 20px;
+  line-height: 29.38px;
+}
+
+.button--primary {
+  width: 208px;
+  height: 47px;
+  background: #FF6464;
+  border: none;
+  font-size: 20px;
+  line-height: 29.38px;
+  color: #fff;
+  font-weight: 500;
 }
 /*# sourceMappingURL=styles.css.map */
