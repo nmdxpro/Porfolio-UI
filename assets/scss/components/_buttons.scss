@@ -1,10 +1,21 @@
+.button {
+    border: none;
+    color: #fff;
+} 
+
 .button--primary {
     width: 208px;
     height: 47px;
     background: #FF6464;
-    border: none;
     font-size: 20px;
     line-height: 29.38px;
-    color: #fff;
     font-weight: 500;
+    cursor: pointer;
+}
+
+.button--secondary {
+    width: 62px;
+    height: 25px;
+    background: #142850;
+    border-radius: 16px;
 }

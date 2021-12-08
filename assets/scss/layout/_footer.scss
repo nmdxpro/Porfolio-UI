@@ -1,0 +1,37 @@
+.footer {
+    ul {
+        display: flex;
+        justify-content: center;
+        padding-top: 51px;
+        padding-bottom: 26px;
+    }
+
+    li {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+    p {
+        text-align: center;
+        padding-bottom: 54px;
+        color: #21243D;
+        font-size: 14px;
+        line-height: 20.56px
+    }
+
+    .ins1 {
+        position: absolute;
+    }
+
+    .ins2 {
+        position: relative;
+        right: -7px;
+        bottom: -6px;
+    }
+
+    .ins3 {
+        position: relative;
+        right: -2px;
+        top: -8px;
+    }
+}

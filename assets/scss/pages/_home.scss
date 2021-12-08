@@ -25,14 +25,16 @@
 
 .recent-posts {
     background: #EDF7FA;
+    padding-bottom: 32px;
 
     .heading {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        
 
         a{
-            font-weight: 400px;
+            font-weight: 400;
             line-height: 23.5px;
             font-size: 16px;
             color: #00A8CC;
@@ -45,8 +47,8 @@
 
         .item {
             background: #fff;
-            width: 418px;
-
+            max-width: 418px;
+            padding-bottom: 24px;
         }
 
         h3 {
@@ -57,6 +59,67 @@
         .time {
             padding-top: 17px;
             padding-bottom: 11px;
+            padding-left: 23px;
+            font-size: 18px;
+            line-height: 26.44px;
         }
+
+        span {
+            padding: 26px;
+        }
+        
+        .text {
+            width: 373px;
+            padding-left: 23px;
+        }
+    }
+}
+
+.featured-works {
+    padding-bottom: 83px;
+
+    h2 {
+        padding-top: 15px;
+        padding-bottom: 22px;
+    }
+
+    .item {
+        display: flex;
+        border-bottom: 1px solid #E0E0E0;
+
+        img {
+            padding-right: 18px;
+        }
+    }
+
+    .item1 {
+        padding-bottom: 15px;
+    }
+
+    .item2 {
+        padding-top: 31px;
+        padding-bottom: 35px;
+    }
+
+    .item3 {
+        padding-top: 31px;
+        padding-bottom: 32px;
+    }
+
+    h3 {
+        font-size: 30px;
+        line-height: 44.06px;
+    }
+
+    .button--secondary {
+        margin-top: 20px;
+        margin-right: 26px;
+        margin-bottom: 22px;
+    }
+
+    span {
+        color: #8695A4;
+        font-size: 20px;
+        line-height: 29.38px
     }
 }
