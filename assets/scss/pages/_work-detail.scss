@@ -1,0 +1,50 @@
+.work-detail {
+    padding-top: 78px;
+
+    h2 {
+        width: 506px;
+        font-size: 34px;
+        line-height: 49.94px;
+    }
+
+    &__content {
+        padding-top: 30px;
+    }
+
+    .button--secondary {
+        background: #FF7C7C;
+        margin-right: 17px;
+    }
+
+    p {
+       
+        width: 681px;
+    }
+
+    .text1 {
+        padding-top: 23px;
+        padding-bottom: 46px;
+    }
+
+    .text2 {
+        padding-bottom: 30px;
+    }
+
+    .work-detail1 {
+        padding-bottom: 54px;
+        width: 681px;
+        height: 460px;
+    }
+
+    h3 {
+        font-weight: 500;
+        font-size: 30px;
+        line-height: 60px;
+    }
+
+    h4 {
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 60px;
+    }
+}
