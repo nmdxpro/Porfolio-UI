@@ -1,0 +1,38 @@
+.work {
+    padding-top: 90px;
+
+    &__content {
+        padding-top: 25px;
+    }
+
+    &__item {
+        display: flex;
+        padding-bottom: 47px;
+        border-bottom: 1px solid #E0E0E0;
+        margin-bottom: 43px;
+    }
+
+    img {
+        padding-right: 28px;
+    }
+
+    &__item--note {
+        padding-top: 16px;
+        padding-bottom: 19px;
+    }
+
+    p {
+        width: 406px;
+    }
+
+    .button--secondary {
+        margin-right: 36px;
+    }
+
+    span {
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 29.38px;
+        color: #8695A4;
+    }
+}

@@ -7,22 +7,25 @@
 
     .navbar {
         ul {
-            list-style: none;
             display: flex;
             justify-content: right;
-        }
-
-        li {
             padding-right: 45px;
             padding-top: 12px;
         }
 
+        li {
+            padding-left: 33px;
+        }
+
         a {
-            text-decoration: none;
             color: $black;
             font-weight: 500;
-            size: 20px;
+            font-size: 20px;
             line-height: 29.38px;
+        }
+
+        a:hover {
+            color: #FF6464;
         }
     }
 }
