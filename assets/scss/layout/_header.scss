@@ -34,12 +34,20 @@
         }
     }
 
-    &__navbar {
-        display: none;
-    }
+    @media screen and( max-width:768px ) {
+        &__navbar {
+           display: none;
+        }
+    }    
     
     li {
         padding-left: 33px;
+    }
+
+    @media screen and( max-width:768px ) {
+        li {
+           padding-left: 0px;
+        }
     }
 
     a {

@@ -158,6 +158,11 @@
   }
 }
 
+.recent-posts__content--item a {
+  font-size: 18px;
+  line-height: 26.44px;
+}
+
 .recent-posts__content--item .item-note {
   padding-top: 17px;
   padding-bottom: 11px;
@@ -196,6 +201,8 @@
 .featured-works__heading {
   padding-top: 15px;
   padding-bottom: 22px;
+  font-size: 22px;
+  line-height: 60px;
 }
 
 @media screen and (max-width: 768px) {
@@ -221,7 +228,7 @@
 
 @media screen and (max-width: 768px) {
   .featured-works__item img {
-    height: 230px;
+    width: 100%;
     padding-right: 0px;
   }
 }
@@ -569,12 +576,20 @@ ul {
   }
 }
 
-.header__navbar {
-  display: none;
+@media screen and (max-width: 768px) {
+  .header__navbar {
+    display: none;
+  }
 }
 
 .header li {
   padding-left: 33px;
+}
+
+@media screen and (max-width: 768px) {
+  .header li {
+    padding-left: 0px;
+  }
 }
 
 .header a {

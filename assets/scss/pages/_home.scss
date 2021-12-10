@@ -141,6 +141,11 @@
             }
         }
 
+        a {
+            font-size: 18px;
+            line-height: 26.44px;
+        }
+
         .item-note {
             padding-top: 17px;
             padding-bottom: 11px;
@@ -181,6 +186,8 @@
     &__heading {
         padding-top: 15px;
         padding-bottom: 22px;
+        font-size: 22px;
+        line-height: 60px;
     }
 
     @media screen and(max-width: 768px) {
@@ -203,7 +210,7 @@
 
         @media screen and(max-width: 768px) {
             img {
-                height: 230px;
+                width: 100%;
                 padding-right: 0px;
             }
         }
