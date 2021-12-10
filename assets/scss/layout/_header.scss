@@ -6,45 +6,50 @@
     }
 
     .toggle {
-        color: #21243D;
-        text-align: right;
         display: none;
     }
 
     @media screen and( max-width:768px ) {
         .toggle {
             display: block;
+            color: #21243D;
+            text-align: right;
+            cursor: pointer;
         }
     }
 
-    .navbar {
+    ul {
+        display: flex;
+        justify-content: right;
+        padding-right: 45px;
+        padding-top: 12px;
+    }
+
+    @media screen and( max-width:768px ) {
         ul {
-            display: flex;
-            justify-content: right;
-            padding-right: 45px;
-            padding-top: 12px;
+            display: block;
+            text-align: center;
+            padding-right: 0px;
+            padding-top: 0px;
         }
+    }
 
-        @media screen and( max-width:768px ) {
-            ul {
-                display: block;
-                text-align: center;
-            }
-        }
+    &__navbar {
+        display: none;
+    }
+    
+    li {
+        padding-left: 33px;
+    }
 
-        li {
-            padding-left: 33px;
-        }
+    a {
+        color: $black;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 29.38px;
+    }
 
-        a {
-            color: $black;
-            font-weight: 500;
-            font-size: 20px;
-            line-height: 29.38px;
-        }
-
-        a:hover {
-            color: #FF6464;
-        }
+    a:hover {
+        color: #FF6464;
     }
 }

@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>Document</title>
     <link rel="stylesheet" href="assets/css/styles.css">
+    <title>Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -15,8 +16,7 @@
             <div class="toggle">
                 <i class="fas fa-bars"></i>
             </div>
-            <nav class="navbar">
-                
+            <nav class="header__navbar">
                 <ul>
                     <li><a href="#">Works</a></li>
                     <li><a href="#">Blog</a></li>
@@ -25,15 +25,25 @@
             </nav>
         </div>
     </header>
+    <script>
+        $(document).ready(function() {
+            $('.toggle').click(function(){
+                $('.header__navbar').slideToggle();
+            });
+        })
+    </script>
 
     <section class="introduction">
-        <div class="container introduction__content">
-            <div>
-                <h2>Hi, I am John, Creative Technologist</h2>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
-                <button class="button button--primary">Dowload Resume</button>
+        <div class="container">
+            <div class="introduction__content">
+                <img class="image-small" src="assets/images/Ellipse 1.png" alt="">
+                <div>
+                    <h2>Hi, I am John, Creative Technologist</h2>
+                    <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+                    <div class="button-center"><button class="button button--primary">Dowload Resume</button></div>
+                </div>
+                <img class="image-big" src="assets/images/Ellipse 1.png" alt="">
             </div>
-            <img src="assets/images/Ellipse 1.png" alt="">
         </div>
     </section>
     

@@ -13,6 +13,13 @@
     cursor: pointer;
 }
 
+@media screen and( max-width: 768px)  {
+    .button-center {
+        width: 208px;
+        margin: auto;
+    }
+}
+
 .button--secondary {
     width: 62px;
     height: 25px;

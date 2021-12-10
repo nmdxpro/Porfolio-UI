@@ -1,9 +1,11 @@
 //color
 $white: #fff;
 $black: #000;
+$primary: #21243D;
 
-//breakpoint
-$small: 768px;
+* {
+    color: $primary;
+}
 
 body {
     padding: 15px;
@@ -21,3 +23,5 @@ a {
 ul {
     list-style: none;
 }
+
+

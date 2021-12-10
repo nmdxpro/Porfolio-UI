@@ -6,6 +6,13 @@
         padding-bottom: 55px;
     }
 
+    @media screen and( max-width: 768px) {
+        h2 {
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+    }
+
     h3 {
         font-size: 30px;
         line-height: 44.06px;
@@ -16,6 +23,13 @@
         padding-bottom: 15px;
         font-size: 20px;
         line-height: 29.38px;
+    }
+
+    @media screen and( max-width: 768px) {
+        &__item--note {
+            padding-top: 5px;
+            padding-bottom: 17px;
+        }
     }
 
     .character {
@@ -36,5 +50,11 @@
 
     &__item--text {
         width: 606px;
+    }
+
+    @media screen and( max-width: 768px) {
+        &__item--text {
+            width: auto;
+        }
     }
 }

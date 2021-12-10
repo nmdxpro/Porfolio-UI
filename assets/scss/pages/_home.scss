@@ -7,24 +7,71 @@
         justify-content: space-between;
     }
 
+    @media screen and(max-width: 768px) {
+        &__content {
+            display: block;
+        }
+    }
+
     h2 {
-        width: 447px;
+        width: 506px;
+    }
+
+    @media screen and(max-width: 768px) {
+        h2 {
+            text-align: center;
+            width: auto;
+            font-size: 32px;
+            line-height: 40px;
+        }
     }
     
     p {
-        width: 493px;
+        width: 497px;
         padding-top: 40px;
         padding-bottom: 38px;
+    }
+
+    @media screen and(max-width: 768px) {
+        p {
+            text-align: center;
+            width: auto;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
     }
 
     img {
         width: 243px;
         height: 243px;
-        position: relative;
-        top:-10px;
+    }
+
+    .image-small {
+        display: none;
+    }
+
+    @media screen and(max-width: 768px) {
+        .image-small {
+            display: block;
+            width: 170.86px;
+            height: 170.86px;
+            margin: auto;
+        }
+
+        .image-big {
+            display: none;
+        }
     }
 }
 
+@media screen and(max-width: 768px) {
+    .introduction {
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+}
+
+//recent-post
 .recent-posts {
     background: #EDF7FA;
     padding-bottom: 32px;
@@ -40,16 +87,41 @@
             color: #21243D;
         }
 
+        @media screen and(max-width: 768px) {
+            p {
+                font-size: 18px;
+                line-height: 60px;
+            }
+        }
+
         a {
             color: #00A8CC;
             font-size: 16px;
             line-height: 23.5px;    
+        }
+
+        @media screen and(max-width: 768px) {
+            a {
+                display: none;
+            }
+        }
+    }
+
+    @media screen and(max-width: 768px) {
+        &__heading {
+            justify-content: center;
         }
     }
 
     &__content {
         display: flex;
         justify-content: space-between;
+    }
+
+    @media screen and(max-width: 768px) {
+        &__content {
+            display: block;
+        }
     }
 
     &__content--item {
@@ -62,12 +134,26 @@
             padding-left: 23px;
         }
 
+        @media screen and(max-width: 768px) {
+            h3 {
+                font-size: 22px;
+                line-height: 30px; 
+            }
+        }
+
         .item-note {
             padding-top: 17px;
             padding-bottom: 11px;
             padding-left: 23px;
             font-size: 18px;
             line-height: 26.44px;
+        }
+
+        @media screen and(max-width: 768px) {
+            .item-note {
+            font-size: 18px;
+            line-height: 23.5px; 
+            }
         }
 
         span {
@@ -79,8 +165,16 @@
             padding-left: 23px;
         }
     }
+
+    @media screen and(max-width: 768px) {
+        &__content--item {
+            margin: auto;
+            margin-bottom: 17px;
+        }
+    }
 }
 
+//featured-works
 .featured-works {
     padding-bottom: 83px;
 
@@ -89,12 +183,35 @@
         padding-bottom: 22px;
     }
 
+    @media screen and(max-width: 768px) {
+        &__heading {
+            text-align: center;
+            font-size: 18px;
+            line-height: 60px;
+            padding-top: 0px;
+            padding-bottom: 0px;
+        }
+    }
+
     &__item {
         display: flex;
         border-bottom: 1px solid #E0E0E0;
 
         img {
             padding-right: 18px;
+        }
+
+        @media screen and(max-width: 768px) {
+            img {
+                height: 230px;
+                padding-right: 0px;
+            }
+        }
+    }
+
+    @media screen and(max-width: 768px) {
+        &__item {
+            display: block;
         }
     }
 
@@ -107,14 +224,33 @@
         padding-bottom: 35px;
     }
 
+    @media screen and(max-width: 768px) {
+        &__item--item2 {
+            display: none;
+        }
+    }
+
     &__item--item3 {
         padding-top: 31px;
         padding-bottom: 32px;
     }
 
+    @media screen and(max-width: 768px) {
+        &__item--item3 {
+            display: none;
+        }
+    }
+
     h3 {
         font-size: 30px;
         line-height: 44.06px;
+    }
+
+    @media screen and(max-width: 768px) {
+        h3 {
+            font-size: 24px;
+            line-height: 30px;
+        }
     }
 
     .button--secondary {

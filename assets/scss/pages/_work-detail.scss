@@ -17,8 +17,13 @@
     }
 
     p {
-       
         width: 681px;
+    }
+
+    @media screen and(max-width:768px) {
+        p {
+            width: auto;
+        }
     }
 
     .text1 {
@@ -32,8 +37,12 @@
 
     .work-detail1 {
         padding-bottom: 54px;
-        width: 681px;
-        height: 460px;
+    }
+
+    @media screen and(max-width:768px) {
+        img {
+            width: 100%;
+        }
     }
 
     h3 {
@@ -46,5 +55,16 @@
         font-weight: 500;
         font-size: 24px;
         line-height: 60px;
+    }
+
+    span {
+        font-size: 20px;
+        line-height: 29.38px;
+    }
+}
+
+@media screen and(max-width:768px) {
+    .work-detail {
+        padding-top: 0px;
     }
 }
